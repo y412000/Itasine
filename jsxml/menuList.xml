@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menulist>
+	<!--salad菜單內容-->
+	<menu>
+		<catagory>Salad</catagory>
+		<eName>Caesar Salad</eName>
+		<cName>凱薩沙拉</cName>
+		<url>/salad/凱薩沙拉.jpeg</url>
+		<price>200</price>
+	</menu>
+	<menu>
+		<catagory>Salad</catagory>
+		<eName>Shrimp Salad</eName>
+		<cName>冷蝦沙拉</cName>
+		<url>/salad/冷蝦沙拉.jpeg</url>
+		<price>250</price>
+	</menu>
+	<menu>
+		<catagory>Salad</catagory>
+		<eName>Chicken Avocado Salad</eName>
+		<cName>雞胸酪梨</cName>
+		<url>/salad/雞胸酪梨.jpeg</url>
+		<price>200</price>
+	</menu>
+	<menu>
+		<catagory>Salad</catagory>
+		<eName>Salmon Salad</eName>
+		<cName>鮭魚野菜</cName>
+		<url>/salad/鮭魚野菜.jpeg</url>
+		<price>300</price>
+	</menu>
+	<!--salad菜單內容-->
+
+	<!--soup菜單內容-->
+	<menu>
+		<catagory>Soup</catagory>
+		<eName>Pumpkin Cream Soup</eName>
+		<cName>南瓜濃湯</cName>
+		<url>/soup/南瓜濃湯.jpeg</url>
+		<price>120</price>
+	</menu>
+	<menu>
+		<catagory>Soup</catagory>
+		<eName>Minestrone Soup</eName>
+		<cName>蔬菜湯</cName>
+		<url>/soup/蔬菜湯.jpg</url>
+		<price>120</price>
+	</menu>
+	<menu>
+		<catagory>Soup</catagory>
+		<eName>Shrimp Mushroom Soup</eName>
+		<cName>鮮蝦野菌湯</cName>
+		<url>/soup/鮮蝦野菌湯.jpeg</url>
+		<price>150</price>
+	</menu>
+	<!--soup菜單內容-->
+	
+	<!--maindish菜單內容-->
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Spaghetti Bolognese</eName>
+		<cName>番茄肉醬義大利麵</cName>
+		<url>/main/番茄肉醬.jpg</url>
+		<price>300</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Spaghetti with Shrimp in Tomato Sauce</eName>
+		<cName>番茄鮮蝦義大利麵</cName>
+		<url>/main/番茄鮮蝦.jpeg</url>
+		<price>400</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Spaghetti Carbonara</eName>
+		<cName>奶油培根義大利麵</cName>
+		<url>/main/奶油培根.jpeg</url>
+		<price>300</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Spaghetti with Shrimp in Pesto Sauce</eName>
+		<cName>海鮮羅勒義大利麵</cName>
+		<url>/main/海鮮羅勒.jpeg</url>
+		<price>400</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Fettuccine Alfredo</eName>
+		<cName>奶油羅勒寬麵</cName>
+		<url>/main/起司羅勒.jpeg</url>
+		<price>350</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Squid Ink Pasta with Octopus</eName>
+		<cName>香蒜墨魚義大利麵</cName>
+		<url>/main/香蒜墨魚.jpg</url>
+		<price>380</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Pasta Salad</eName>
+		<cName>鮮蔬義大利麵</cName>
+		<url>/main/清爽鮮蔬.jpg</url>
+		<price>380</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Linguine with Clam</eName>
+		<cName>蛤蠣義大利麵</cName>
+		<url>/main/白酒蛤蠣.jpeg</url>
+		<price>380</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Margherita</eName>
+		<cName>瑪格麗特比薩</cName>
+		<url>/main/瑪格麗特.jpg</url>
+		<price>350</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Crudo Pizza</eName>
+		<cName>起司火腿比薩</cName>
+		<url>/main/起司火腿.jpeg</url>
+		<price>400</price>
+	</menu>
+	<menu>
+		<catagory>Maindish</catagory>
+		<eName>Pepperoni Pizza</eName>
+		<cName>義式香腸比薩</cName>
+		<url>/main/義式香腸.jpeg</url>
+		<price>380</price>
+	</menu>
+	<!--maindish菜單內容-->
+	
+	<!--drink菜單內容-->
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Lemonade</eName>
+		<cName>檸檬水</cName>
+		<url>/drink/檸檬水.jpg</url>
+		<price>50</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Raspberry Water</eName>
+		<cName>野莓水</cName>
+		<url>/drink/野莓水.jpg</url>
+		<price>80</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Orange Juice</eName>
+		<cName>柳丁汁</cName>
+		<url>/drink/柳丁汁.jpg</url>
+		<price>100</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Fibre Juice</eName>
+		<cName>特調蔬果汁</cName>
+		<url>/drink/特調蔬果汁.jpg</url>
+		<price>150</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Tea with mint</eName>
+		<cName>薄荷紅茶</cName>
+		<url>/drink/薄荷紅茶.jpg</url>
+		<price>80</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Rose Tea</eName>
+		<cName>玫瑰茶</cName>
+		<url>/drink/玫瑰茶.jpg</url>
+		<price>150</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Chamomile Tea</eName>
+		<cName>洋甘菊茶</cName>
+		<url>/drink/洋甘菊茶.jpg</url>
+		<price>150</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Espresso</eName>
+		<cName>義式濃縮咖啡</cName>
+		<url>/drink/義式濃縮.jpg</url>
+		<price>130</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Americano</eName>
+		<cName>美式咖啡</cName>
+		<url>/drink/美式咖啡.jpg</url>
+		<price>100</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Cappuccino</eName>
+		<cName>卡布奇諾</cName>
+		<url>/drink/卡布奇諾.jpg</url>
+		<price>130</price>
+	</menu>
+	<menu>
+		<catagory>Drink</catagory>
+		<eName>Hot Cocoa with Marshmallow</eName>
+		<cName>棉花可可</cName>
+		<url>/drink/棉花可可.jpg</url>
+		<price>150</price>
+	</menu>
+	<!--drink菜單內容-->
+	
+	<!--dessert菜單內容-->
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Tiramisu</eName>
+		<cName>提拉米蘇</cName>
+		<url>/dessert/提拉米蘇.jpg</url>
+		<price>120</price>
+	</menu>
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Coffee Crepe</eName>
+		<cName>咖啡薄卷</cName>
+		<url>/dessert/咖啡薄卷.jpg</url>
+		<price>120</price>
+	</menu>
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Orange Panna Cotta</eName>
+		<cName>香橙奶酪</cName>
+		<url>/dessert/香橙奶酪.jpg</url>
+		<price>80</price>
+	</menu>
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Strawberry Cheesecake</eName>
+		<cName>草莓起司蛋糕</cName>
+		<url>/dessert/草莓起司.jpg</url>
+		<price>120</price>
+	</menu>
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Raspberry Pie</eName>
+		<cName>野莓塔</cName>
+		<url>/dessert/野莓塔.jpg</url>
+		<price>150</price>
+	</menu>
+	<menu>
+		<catagory>Dessert</catagory>
+		<eName>Raspberry Hotcake</eName>
+		<cName>野莓鬆餅</cName>
+		<url>/dessert/野莓鬆餅.jpg</url>
+		<price>180</price>
+	</menu>
+	<!--dessert菜單內容-->
+	<setmeal>
+		<catagory>Set Meal</catagory>
+		<cName>套餐A</cName>
+		<content>凡點任一主餐，加價NT$150即附贈小份沙拉及任選菜單飲品一杯</content>
+	</setmeal>
+	<setmeal>
+		<catagory>Set Meal</catagory>
+		<cName>套餐B</cName>
+		<content>凡點任一主餐，加價NT$200即附贈小份沙拉及任選菜單湯品一份</content>
+	</setmeal>
+	<setmeal>
+		<catagory>Set Meal</catagory>
+		<cName>套餐C</cName>
+		<content>凡點任一主餐，加價NT$300即附贈小份沙拉、任選菜單湯品一份及單價NT$120以下甜點一份</content>
+	</setmeal>
+</menulist>
+
