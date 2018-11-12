@@ -1,8 +1,8 @@
 @font-face {
-   font-family: 'Noto Sans TCKtc';
-   font-style: normal;
-   font-weight: 400;
-   src: url(/font/NotoSansCJKtc-Regular.otf) format('opentype');
+	font-family: 'Noto Sans TCKtc';
+	font-style: normal;
+	font-weight: 400;
+	src: url(./font/NotoSansCJKtc-Regular.otf) format('opentype');
 }
 
 * {
