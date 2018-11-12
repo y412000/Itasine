@@ -84,7 +84,7 @@ nav {
 	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
 	color: white;
 	font-size: 200%;
-	text-shadow: 0 0 0 rgba(0,0,0,0);
+	text-shadow: none;
 }
 
 .navbar-brand:hover {
@@ -133,7 +133,7 @@ nav {
 	transform: rotate(0);
 	margin-bottom: 0;
 }
-    
+   
 #mainBar a {
 	font-size: 120%;
 	text-shadow: none;
@@ -142,10 +142,6 @@ nav {
 	padding: 0 1.2rem 8px 1.2rem;
 	transition: border-bottom 0.3s;
 	-webkit-transition: border-bottom 0.3s
-}
-
-#mainBar a:hover {
-	color: white;
 }
 
 .navbar-collapse li {
