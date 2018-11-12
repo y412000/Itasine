@@ -2,9 +2,7 @@
    font-family: 'Noto Sans TCKtc';
    font-style: normal;
    font-weight: 400;
-   src: url(./font/NotoSansCJKtc-Regular.woff2) format('woff2'),
-        url(./font/NotoSansCJKtc-Regular.woff) format('woff'),
-        url(./font/NotoSansCJKtc-Regular.otf) format('opentype');
+   src: url(/font/NotoSansCJKtc-Regular.otf) format('opentype');
 }
 
 * {
@@ -14,7 +12,7 @@
 
 	color: white;
 	text-shadow: 0px 0px 10px rgba(0,0,0,1), 1px 1px 1px rgba(0,0,0,1);
-/*	scroll-behavior: smooth;*/
+
 }
 
 html {
@@ -148,8 +146,6 @@ nav {
 
 #mainBar a:hover {
 	color: white;
-
-	text-shadow: 1px 1px 10px rgba(255,255,255,1);
 }
 
 .navbar-collapse li {
