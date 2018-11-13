@@ -1,15 +1,24 @@
 $(document).ready(function(){
-/*	
-	$(window).scroll(function(){
-        var x = $(window).width();		
-		let y = $(window).offset().top;
-		
-		alert("window width: " + x + "mainbar offset top: " + y);
-    });
-*/
+	let bgimageW = 1920;
+	let bgimageH = 1247; 
 	
 	/**************當視窗大小改變時**************/
 	$(window).resize(function(){
+		let winWidth = $(window).width();
+		let winHeight = $(window).height();
+		
+		let ratioW = winWidth / bgimageW;
+		let ratioH = winHeight / bgimageH;
+		
+		if( ratioW > ratioH ) {
+			$("body").css("background-size", (ratioW + 0.02) + " auto");
+		} else {
+			$("body").css("background-size", "auto " + (ratioH + 0.02));
+		}
+		
+	//	alert("width ratio: " + ratioW + ", height: " + ratioH + "\n" + (ratioW + 0.1) + " auto");
+		
+		
 		/**************************************************
 		主瀏覽列背景顏色根據視窗大小及畫面位置更改
 		1. 視窗寬度大於768px且畫面向下滾動時為透明深暗
@@ -25,6 +34,8 @@ $(document).ready(function(){
 		} else {
 			$("#myMainBar").css("background-color", "rgba(72, 72, 72, 1)");
 		}
+		
+		
 	});
 	
 	/**************當視窗滾動時**************/
