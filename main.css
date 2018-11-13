@@ -22,7 +22,8 @@ html {
 
 body {
 	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
-	background: url("./image/bgimg.jpeg") no-repeat;
+	background-image: url("./image/bgimg.jpeg");
+	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	overflow-y: scroll;
 	height: auto;
