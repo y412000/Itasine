@@ -9,9 +9,9 @@ $(document).ready(function(){
 	let ratioH = winHeight / bgimageH;
 		
 	if( ratioW > ratioH ) {
-		$("body").css("background-size", (ratioW + 0.02) + " auto");
+		$("body").css("background-size", ratioW + " auto");
 	} else {
-		$("body").css("background-size", "auto " + (ratioH + 0.02));
+		$("body").css("background-size", "auto " + ratioH);
 	}
 	
 	/**************當視窗大小改變時**************/
