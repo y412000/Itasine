@@ -2,6 +2,18 @@ $(document).ready(function(){
 	let bgimageW = 1920;
 	let bgimageH = 1247; 
 	
+	let winWidth = $(window).width();
+	let winHeight = $(window).height();
+		
+	let ratioW = winWidth / bgimageW;
+	let ratioH = winHeight / bgimageH;
+		
+	if( ratioW > ratioH ) {
+		$("body").css("background-size", (ratioW + 0.02) + " auto");
+	} else {
+		$("body").css("background-size", "auto " + (ratioH + 0.02));
+	}
+	
 	/**************當視窗大小改變時**************/
 	$(window).resize(function(){
 		let winWidth = $(window).width();
