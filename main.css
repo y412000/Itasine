@@ -24,6 +24,7 @@ body {
 	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
 	background: url("./image/bgimg.jpeg") no-repeat;
 	background-position: center top;
+	background-attachment: fixed;
 	overflow-y: scroll;
 	height: auto;
 	min-height: 100%;
