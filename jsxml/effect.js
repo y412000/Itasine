@@ -48,9 +48,9 @@ $(document).ready(function(){
 		let ratioH = winHeight / bgimageH;
 
 		if( ratioW > ratioH ) {			//橫狀長方形
-			$("body").css("background-size", "100% auto");
+			$("#backgroundImage").css("background-size", "100vw auto");
 		} else {						//豎狀長方形
-			$("body").css("background-size", "auto 100%");
+			$("#backgroundImage").css("background-size", "auto 100vh");
 		}
 	}
 	

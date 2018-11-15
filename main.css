@@ -22,12 +22,18 @@ html {
 
 body {
 	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
-	background-image: url("./image/bgimg.jpeg");
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
 	overflow-y: scroll;
 	height: auto;
 	min-height: 100%;
+}
+
+#backgroundImage {
+	background-image: url("./image/bgimg.jpeg");
+	background-repeat:  no-repeat;
+	background-position: center top;
+	width: 100vw;
+	position: fixed;
+	z-index: -100;
 }
 
 h1 {
@@ -165,7 +171,7 @@ nav {
 	height: 100vh;
 }
 
-.row100 > div {
+.row100 > .indexCtn {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
