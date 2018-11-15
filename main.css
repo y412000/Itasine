@@ -167,7 +167,7 @@ nav {
 	height: 100vh;
 }
 
-.row100 > .indexCtn {
+.row100 > div {
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
