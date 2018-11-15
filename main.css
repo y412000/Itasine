@@ -2,9 +2,9 @@
 	font-family: 'Noto Sans TCKtc';
 	font-style: normal;
 	font-weight: 400;
-	src:url(/font/NotoSansCJKtc-Regular.otf) format('opentype'), 
-		url(/font/NotoSansCJKtc-Regular.ttf) format('truetype'), 
-		url(/font/NotoSansCJKtc-Regular.woff) format('woff');
+	src:url("./font/NotoSansCJKtc-Regular.otf") format('opentype'), 
+		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'), 
+		url("./font/NotoSansCJKtc-Regular.woff") format('woff');
 	
 }
 
@@ -159,7 +159,7 @@ nav {
 	-webkit-transition: all 0.3s;
 }
 
-.navbar-collapse li:hover {
+.navbar-collapse li:hover, .navbar-collapse li:active {
 	background-color: rgba(100,100,100,0.2);
 	box-shadow: inset 0px 0px 5px rgba(50,50,50,0.8), inset 0px 0px 2px rgba(50,50,50,0.5);
 	padding: 0.8rem 20px 0.8rem 35px;
