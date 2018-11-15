@@ -68,7 +68,7 @@ $(document).ready(function(){
 				$("#myMainBar").css("background-color", "rgba(0, 0, 0, 0.2)");
 			}
 		} else {
-			$("#myMainBar").css("background-color", "rgba(72, 72, 72, 1)");
+			$("#myMainBar").css("background-color", "rgba(60, 60, 60, 1)");
 		}
 	}
 	
