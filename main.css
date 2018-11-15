@@ -163,10 +163,6 @@ nav {
 	padding: 0.8rem 20px 0.8rem 35px;
 }
 
-
-
-
-
 .row100 {
 	height: 100vh;
 }
@@ -177,7 +173,10 @@ nav {
 	transform: translateY(-50%);
 }
 
-
+section {
+	position: absolute;
+	top: 0;
+}
 
 
 
