@@ -1,12 +1,19 @@
 @media only screen and (min-width: 576px) {
-	
+
 	#menuBar {
-		width: 20%;
+		left: 10%;
+	}
+	
+	#menuBar .nav-link {
+		padding: 8px 15px;
+	}
+	
+	/*	
+	#menuBar {
+		width: 100%;
 	}
 
 	#menuBar .nav-link {
-		color: white;
-
 		padding: 10px;
 		margin: 5px 0;
 		width: 13vw;
@@ -22,16 +29,7 @@
 	#menuBar .nav-link::first-letter {
 		letter-spacing: 10px;
 	}
-
-	#menuBar .active {
-		background: rgba(0,0,0,0);
-		border-width: 5px 0px 5px 0px;
-		border-style: solid;
-		border-color: rgba(255,255,255,0.8);
-	}
-
-
-
+*/
 }
 
 
@@ -123,6 +121,21 @@
 	}
 	
 	
+	#menuBar {
+		width: auto;
+		font-size: 110%;
+		padding: 10px 15px;
+	}
+	
+	#menuBar .nav-link {
+		width: auto;		
+	}
+/*
+	#menuBar {
+		left: 10%;
+		top: 55%;
+		transform: translateY(-50%);
+	}
 	
 	#menuBar .nav-link {
 		font-size: 120%;
@@ -132,7 +145,12 @@
 	#menuBar .nav-link::first-letter {
 		letter-spacing: 10px;
 	}
-	
+*/
+	#menuCtn {
+		top: 8rem;
+		left: 12%;
+	}
+
 	.menuBlock {
 		box-shadow: none;
 	}
@@ -180,16 +198,20 @@
 	
 	
 	#menuBar {
-		width: 15%;
-	}
+		left: 12%;
 
+		padding: 20px;
+		font-size: 120%;
+	}
+	
 	#menuBar .nav-link::first-letter {
-		letter-spacing: 15px;
+		letter-spacing: 12px;
 	}
 
-	#menuBar .active {
-		border-width: 8px 0px 8px 0px;
+	#menuCtn {
+		left: 12%;
 	}
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -203,7 +225,6 @@
 		height: 75vh;
 		left: 10%;
 		transform: translateX(0%);
-
 	}
 
 	.newsCtn {
@@ -223,23 +244,22 @@
 	
 	
 	#menuBar {
-		width: 12%;
-		left: 10%;
-		top: 8rem;
+		left: 12%;
+
+		padding: 30px;
+		font-size: 120%;
 	}
-
-	#menuBar .nav-link {
-		font-size: 130%;
-		width: 7vw;
-		margin: 5px auto;
-	}
-
-
+	
+	
+	/*
 	#menuBar .active {
 		border-width: 8px 0px 8px 0px;
 		border-color: rgba(255,255,255,0.9);
 	}
-
+*/
+	#menuCtn {
+		left: 9%;
+	}
 
 }
 
