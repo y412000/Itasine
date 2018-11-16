@@ -128,7 +128,9 @@
 	}
 	
 	#menuBar .nav-link {
-		width: auto;		
+		width: auto;
+		border-width: 5px 0px;
+		padding: 10px;
 	}
 /*
 	#menuBar {

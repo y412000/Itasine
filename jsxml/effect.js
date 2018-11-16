@@ -29,7 +29,12 @@ $(document).ready(function(){
 		if($(this.hash) !== "") {
 			event.preventDefault();
 			let target = $(this.hash);
-			$("html, body").animate({scrollTop: target.offset().top - 115}, 700);
+			if( $(window).width() > 768) {
+				$("html, body").animate({scrollTop: target.offset().top - 115}, 600);
+			} else {
+				$("html, body").animate({scrollTop: target.offset().top - 70}, 700);
+			}
+			
 		}
 	})
 
