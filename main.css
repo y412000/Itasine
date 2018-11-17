@@ -150,6 +150,7 @@ nav {
 
 #mainBar a {
 	font-size: 120%;
+	height: 3rem;
 	text-shadow: none;
 	color: white;
 	text-decoration: none;
@@ -352,6 +353,7 @@ section {
 #menuCtn {
 	top: 4.5rem;
 	left: 10%;
+
 }
 
 .menuInfo > h5:first-child {

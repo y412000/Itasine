@@ -1,6 +1,8 @@
 $(document).ready(function(){
 	
 	backgroundImg();
+	menuContainer();
+	navLiEffect();
 	
 	/**************當視窗大小改變時**************/
 	$(window).resize(function(){
@@ -8,6 +10,8 @@ $(document).ready(function(){
 		backgroundImg();
 		mainBarBgcolor();		
 		toppingDisplay();
+		menuContainer();
+		navLiEffect();
 		
 	});
 	
@@ -36,7 +40,8 @@ $(document).ready(function(){
 			}
 			
 		}
-	})
+	});
+	
 
 	
 /*************************************************************************************/		
@@ -67,10 +72,10 @@ $(document).ready(function(){
 		3. 視窗寬度小於768px，無論畫面位於哪處皆為灰色
 		**************************************************/
 		if( $(window).width() > 768) {
-			if( $("#myMainBar").offset().top > 90) {
-				$("#myMainBar").css("background-color", "rgba(0, 0, 0, 0.7)");
+			if( $("#menu #myMainBar").offset().top > 90) {
+				$("#menu #myMainBar").css("background-color", "rgba(0, 0, 0, 0.7)");
 			} else {
-				$("#myMainBar").css("background-color", "rgba(0, 0, 0, 0.2)");
+				$("#menu #myMainBar").css("background-color", "rgba(0, 0, 0, 0.2)");
 			}
 		} else {
 			$("#myMainBar").css("background-color", "rgba(60, 60, 60, 1)");
@@ -84,6 +89,43 @@ $(document).ready(function(){
 		} else {
 			$("#topping").show();
 		}
+	}
+	
+	/*當瀏覽器寬度小於768px時改為container-fluid*/
+	function menuContainer() {
+		if( $(window).width()<768 ) {
+			$("#menu").removeClass("container");
+			$("#menu").addClass("container-fliud");
+		} else {
+			$("#menu").removeClass("container-fluid");
+			$("#menu").addClass("container");
+		}
+	}
+	
+	function navLiEffect() {
+		if( $(window).width() < 768 ) {
+			$(".navbar-collapse li").on({
+				mousedown: function() {
+					$(this).css("background-color", "rgba(80, 80, 80 ,0.6)");
+					$(this).css("box-shadow", "inset 0px 0px 5px rgba(50,50,50,0.8), inset 0px 0px 2px rgba(50,50,50,0.5)");
+					$(this).css("padding", "0.8rem 25px 0.8rem 35px");
+				}, 
+				mouseenter: function() {
+					$(this).css("background-color", "rgba(80, 80, 80 ,0.6)");
+					$(this).css("box-shadow", "inset 0px 0px 5px rgba(50,50,50,0.8), inset 0px 0px 2px rgba(50,50,50,0.5)");
+					$(this).css("padding", "0.8rem 25px 0.8rem 35px");
+				}, 
+				mouseleave: function() {
+					$(this).css("background-color", "");
+					$(this).css("box-shadow", "none");
+					$(this).css("padding", "0.8rem 25px");
+				}
+			});
+		}
+	}
+	
+	function indexAutoScroll() {
+		
 	}
 	
 });
