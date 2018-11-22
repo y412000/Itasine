@@ -1,17 +1,15 @@
 $(document).ready(function() {
 	
-	spacingP();
+	spacing();
 	
 	$(window).resize(function() {
-		spacingP();
+		spacing();
 	});
 	
 	
 /*************************************************************************************/	
-	function spacingP() {
-		
+	function spacing() {
 		if( $(window).width() < 768 ) { 
-			
 			// 直向長方形
 			if( $(window).width() < $(window).height() ) {
 				$(".newsCtn > h4").css("padding-bottom", "2.5%");
