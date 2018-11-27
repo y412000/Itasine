@@ -181,6 +181,7 @@ nav {
 	top: 50%;
 	transform: translateY(-50%);
 	padding: 10vh 0px;
+	visibility: visible;
 }
 
 #index > .text-center > .row100:not(:first-child) {
