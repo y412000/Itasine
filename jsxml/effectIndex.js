@@ -1,7 +1,4 @@
-$(document).ready(function(){
-	$("html, body").scrollTop(0);
-	let originPos = $("html, body").scrollTop();
-	
+$(document).ready(function(){	
 	$(window).on({
 		scroll: function(){
 			wordOpacity();
