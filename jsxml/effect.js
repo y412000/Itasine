@@ -1,12 +1,14 @@
 $(document).ready(function(){
+	let windowFlag = "";
 	
 	backgroundImg();
 	fluidSwitch();
+	toppingDisplay();
 	
 	/**************當視窗大小改變時**************/
 	$(window).resize(function(){
 		
-		backgroundImg();		
+		windowSizeChangeImg();		
 		toppingDisplay();
 		fluidSwitch();
 		
@@ -39,8 +41,29 @@ $(document).ready(function(){
 
 		if( ratioW > ratioH ) {			//橫狀長方形
 			$("#backgroundImage").css("background-size", "100vw auto");
+			windowFlag = true;
 		} else {						//豎狀長方形
 			$("#backgroundImage").css("background-size", "auto 100vh");
+			windowFlag = false;
+		}
+	}
+	
+	function windowSizeChangeImg() {
+		let bgimageW = 1920;
+		let bgimageH = 1247; 
+
+		let winWidth = $(window).width();
+		let winHeight = $(window).height();
+
+		let ratioW = winWidth / bgimageW;
+		let ratioH = winHeight / bgimageH;
+
+		if( windowFlag == true && ratioH > ratioW) {   							//原橫向介面換為直向介面
+			$("#backgroundImage").css("background-size", "auto 100vh");
+			windowFlag = false;
+		} else if ( windowFlag == false && ratioW > ratioH) {					//原直向介面換為橫向介面
+			$("#backgroundImage").css("background-size", "100vw auto");
+			windowFlag = true;
 		}
 	}
 	
