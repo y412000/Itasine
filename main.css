@@ -188,8 +188,12 @@ nav {
 	transform: translateY(-1%);
 }
 
-.indexCtn{
+.indexCtn {
 	visibility: visible;
+}
+
+.row100:first-child > .indexCtn {
+	opacity: 1;
 }
 
 #index > .text-center > .row100:not(:first-child) > .indexCtn {
