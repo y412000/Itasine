@@ -35,51 +35,51 @@ $(document).ready(function(){
 		  並將indexCtn[n-1]或indexCtn[n+1]隱藏		 */
 		if(currentPos >= indexCtnPos[0] && currentPos < indexCtnPos[1]) {
 			if($(".indexCtn:eq(1)").css("opacity") != 0 && !$(".indexCtn:eq(1)").is(":animated")) {
-				$(".indexCtn:eq(1)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(1)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(0)").css("opacity") != 1 && !$(".indexCtn:eq(0)").is(":animated")){
-				$(".indexCtn:eq(0)").animate({opacity: 1}, time);
+				$(".indexCtn:eq(0)").animate({opacity: "1"}, time);
 			}
 			
 		} else if(currentPos >= indexCtnPos[1] && currentPos < indexCtnPos[2]) {
 			if($(".indexCtn:eq(0)").css("opacity") != 0 && !$(".indexCtn:eq(0)").is(":animated")) {
-				$(".indexCtn:eq(0)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(0)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(2)").css("opacity") != 0 && !$(".indexCtn:eq(2)").is(":animated")) {
-				$(".indexCtn:eq(2)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(2)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(1)").css("opacity") != 1 && !$(".indexCtn:eq(1)").is(":animated")){
-				$(".indexCtn:eq(1)").animate({opacity: 1}, time);
+				$(".indexCtn:eq(1)").animate({opacity: "1"}, time);
 			}
 
 		} else if(currentPos >= indexCtnPos[2] && currentPos < indexCtnPos[3]){
 			if($(".indexCtn:eq(1)").css("opacity") != 0 && !$(".indexCtn:eq(1)").is(":animated")) {
-				$(".indexCtn:eq(1)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(1)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(3)").css("opacity") != 0 && !$(".indexCtn:eq(3)").is(":animated")) {
-				$(".indexCtn:eq(3)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(3)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(2)").css("opacity") != 1 && !$(".indexCtn:eq(2)").is(":animated")){
-				$(".indexCtn:eq(2)").animate({opacity: 1}, time);
+				$(".indexCtn:eq(2)").animate({opacity: "1"}, time);
 			}
 			
 		} else if(currentPos >= indexCtnPos[3] && currentPos < indexCtnPos[4]){
 			if($(".indexCtn:eq(2)").css("opacity") != 0 && !$(".indexCtn:eq(2)").is(":animated")) {
-				$(".indexCtn:eq(2)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(2)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(4)").css("opacity") != 0 && !$(".indexCtn:eq(4)").is(":animated")) {
-				$(".indexCtn:eq(4)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(4)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(3)").css("opacity") != 1 && !$(".indexCtn:eq(3)").is(":animated")){
-				$(".indexCtn:eq(3)").animate({opacity: 1}, time);
+				$(".indexCtn:eq(3)").animate({opacity: "1"}, time);
 			}
 
 		} else if(currentPos >= indexCtnPos[4]){
 			if($(".indexCtn:eq(3)").css("opacity") != 0 && !$(".indexCtn:eq(3)").is(":animated")) {
-				$(".indexCtn:eq(3)").animate({opacity: 0}, time2);
+				$(".indexCtn:eq(3)").animate({opacity: "0"}, time2);
 			}
 			if($(".indexCtn:eq(4)").css("opacity") != 1 && !$(".indexCtn:eq(4)").is(":animated")){
-				$(".indexCtn:eq(4)").animate({opacity: 1}, time);
+				$(".indexCtn:eq(4)").animate({opacity: "1"}, time);
 			}
 		} 
 	
