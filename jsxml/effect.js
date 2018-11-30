@@ -69,7 +69,7 @@ $(document).ready(function(){
 	
 	/*點選右下角置頂鈕時，安排捲動動畫至頂端*/
 	function toppingDisplay() {
-		if( $("#myMainBar").offset().top < 500) {
+		if( $("#myMainBar").offset().top < 200) {
 			$("#topping").hide();
 		} else {
 			$("#topping").show();

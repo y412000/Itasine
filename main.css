@@ -437,7 +437,112 @@ section {
 
 
 
-#map {
-	height: 50%;
+
+.contact {
+	top: 5rem;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.contact > h2 {
+	margin-bottom: 2%;
+}
+
+form {
+	margin-bottom: 10%;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.form-group {
+
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.form-control {
+	color: black;
+	text-shadow: none;
+}
+
+label {
+	margin: 0;
+	font-size: 110%;
+}
+
+option {
+	color: black;
+}
+
+textarea {
+	resize: none;
+}
+
+.formButton {
+	padding: 0px;
+	margin: 0px;
+	left: 0%;
+}
+
+.formButton > .btn {
+	background-color: rgba(70, 70, 70, 1);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 5px rgba(0, 0, 0, 0.8);
+	font-size: 100%;
+	padding: 3px 10vw;
+	border-radius: 15px;
+}
+
+.formButton > .btn::first-letter {
+	letter-spacing: 5px;
+}
+
+
+
+
+.shop {
+	padding: 0%;
+	margin: 30px;
+}
+
+.shop:first-child {
+	margin-top: 0px;
+}
+
+.locaCtn {
+	padding: 5% 1% 3% 5vw;
+	background-color: rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+	line-height: 1.3;
+}
+
+.locaCtn > h3 {
+	font-size: 180%;
+}
+
+.locaCtn > p {
+	margin-bottom: 0px;
+	margin-top: 10px;
+	font-size: 95%;
+}
+
+.locaMap {
 	width: 100%;
+	min-height: 250px;
+	height: 40vh;
+}
+
+.mapInfo {
+	padding: 10px 5px;
+}
+
+.mapInfo > h5, .mapInfo > p {
+	color: black;
+	text-shadow: none;
+	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
+	line-height: 1.2;
+	font-weight: bold;
+}
+
+.mapInfo > p {
+	margin: 0px;
 }

@@ -42,16 +42,52 @@
 		
 		<div id="backgroundImage" class="row100"></div>
 		
-		<section class="container row contact">
-			<div class="row100 col-md-6"></div>
+		<section class="container contact">
+			<h2 class="text-center">聯繫我們</h2>
+			<form class="container" action="">
+				<div class="form-group">
+					<label for="name">名字</label>
+					<input type="text" class="form-control form-control-sm" placeholder="Joe" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="telephone">聯繫電話</label>
+					<input type="tel" class="form-control form-control-sm" placeholder="0912 345 678" required>
+				</div>
+				
+				<div class="form-group">
+					<label for="email">電子信箱</label>
+					<input type="email" class="form-control form-control-sm" placeholder="example@contactme.com.tw" required>
+				</div>
+				
+				<div class="form-group">
+					<select class="form-control form-control-sm">
+						<option>-----請選擇-----</option>
+						<option>關於餐點</option>
+						<option>服務品質</option>
+						<option>用餐環境</option>
+						<option>其他</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="text">您的留言</label>
+					<textarea class="form-control form-control-sm" placeholder="您的內容" rows="5" required></textarea>
+				</div>
+				<div class="formButton d-flex justify-content-around">
+					<button type="submit" class="btn">送出</button>
+					<button type="reset" class="btn">清空</button>
+				</div>
+			</form>
 			
-			<div class="row100 col-md-6">
-				<div id="map"></div>
-				<script src="./jsxml/map.js"></script>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuI5n9l_yLtnMEWYVY2dNTVm1hsd-DSsY&callback=initMap" async defer></script>
-			
-			</div>
-			
+			<h2 class="text-center">分店資訊</h2>
+			<div id="location"></div>
+			<button type="button" class="btn" id="topping">TOP</button>
 		</section>
+
+		<script src="./jsxml/mapObj.js"></script>
+		<script src="./jsxml/locationDetail.js"></script>
+		<script src="./jsxml/map.js"></script>
 		<script src="./jsxml/effect.js"></script>
+		<script src="./jsxml/effectContact.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8ICc9LteLV7Tt73Yzlck1zDqCbgjBF9U&callback=initMap" async defer></script>
 	</body>
