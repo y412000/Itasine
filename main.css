@@ -2,7 +2,8 @@
 	font-family: 'Noto Sans TCKtc';
 	font-style: normal;
 	font-weight: 400;
-	src:url("./font/NotoSansCJKtc-Regular.woff") format('woff'),
+	src:url("./font/NotoSansCJKtc-Regular.woff2") format('woff2'),
+		url("./font/NotoSansCJKtc-Regular.woff") format('woff'),
 		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'), 
 		url("./font/NotoSansCJKtc-Regular.eot") format('embedded-opentype');
 }
