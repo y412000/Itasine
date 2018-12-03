@@ -455,7 +455,6 @@ form {
 }
 
 .form-group {
-
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -476,6 +475,23 @@ option {
 
 textarea {
 	resize: none;
+}
+
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 14px;
+}
+
+#nameHelp, #telHelp, #emailHelp, #selectHelp, #messageHelp {
+	display: inline;
+	padding: 2px 5px;
+	font-weight: 400;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 0px 0px 5px 5px;
+	font-size: 90%;
+	letter-spacing: 1px;
 }
 
 .formButton {
