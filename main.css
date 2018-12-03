@@ -4,7 +4,8 @@
 	font-weight: 400;
 	src:url("./font/NotoSansCJKtc-Regular.otf") format('opentype'), 
 		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'), 
-		url("./font/NotoSansCJKtc-Regular.woff") format('woff');
+		url("./font/NotoSansCJKtc-Regular.woff") format('woff'),
+		url("./font/NotoSansCJKtc-Regular.eot") format('embedded-opentype');
 	
 }
 
