@@ -480,7 +480,7 @@ textarea {
 input[type="week"],
 select:focus,
 textarea {
-  font-size: 14px;
+  font-size: initial;
 }
 
 #nameHelp, #telHelp, #emailHelp, #selectHelp, #messageHelp {
