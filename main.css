@@ -477,10 +477,18 @@ textarea {
 	resize: none;
 }
 
-input[type="week"],
-select:focus,
-textarea {
-  font-size: initial;
+
+#name, #tel, #email, #select, #message {
+	font-size: 14px;
+}
+
+#name:focus, 
+#tel:focus, 
+#email:focus, 
+#select:focus, 
+#message:focus {
+	background-color: cornsilk;
+
 }
 
 #nameHelp, #telHelp, #emailHelp, #selectHelp, #messageHelp {
