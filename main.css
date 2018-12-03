@@ -477,17 +477,13 @@ textarea {
 	resize: none;
 }
 
-
-#name, #tel, #email, #select, #message {
-	font-size: 14px;
-}
-
 #name:focus, 
 #tel:focus, 
 #email:focus, 
 #select:focus, 
 #message:focus {
 	background-color: cornsilk;
+	font-size: 14px !important;
 
 }
 
