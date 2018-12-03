@@ -47,34 +47,39 @@
 			<form class="container" action="">
 				<div class="form-group">
 					<label for="name">名字</label>
-					<input type="text" class="form-control form-control-sm" placeholder="Joe" required>
+					<input id="name" type="text" class="form-control form-control-sm" placeholder="Joe">
+					<p id="nameHelp" class="form-text text-warning"></p>
 				</div>
 				
 				<div class="form-group">
 					<label for="telephone">聯繫電話</label>
-					<input type="tel" class="form-control form-control-sm" placeholder="0912 345 678" required>
+					<input id="tel" type="tel" class="form-control form-control-sm" placeholder="0912345678 / 0223456789">
+					<p id="telHelp" class="form-text text-warning"></p>
 				</div>
 				
 				<div class="form-group">
 					<label for="email">電子信箱</label>
-					<input type="email" class="form-control form-control-sm" placeholder="example@contactme.com.tw" required>
+					<input id="email" type="email" class="form-control form-control-sm" placeholder="example@contactme.com.tw">
+					<p id="emailHelp" class="form-text text-warning"></p>
 				</div>
 				
 				<div class="form-group">
-					<select class="form-control form-control-sm">
-						<option>-----請選擇-----</option>
-						<option>關於餐點</option>
-						<option>服務品質</option>
-						<option>用餐環境</option>
-						<option>其他</option>
+					<select id="select" class="form-control form-control-sm">
+						<option value="">-----請選擇-----</option>
+						<option value="desert">關於餐點</option>
+						<option value="service">服務品質</option>
+						<option value="environment">用餐環境</option>
+						<option value="other">其他</option>
 					</select>
+					<p id="selectHelp" class="form-text text-warning"></p>
 				</div>
 				<div class="form-group">
 					<label for="text">您的留言</label>
-					<textarea class="form-control form-control-sm" placeholder="您的內容" rows="5" required></textarea>
+					<textarea id="message" class="form-control form-control-sm" placeholder="您的內容" rows="5"></textarea>
+					<p id="messageHelp" class="form-text text-warning"></p>
 				</div>
 				<div class="formButton d-flex justify-content-around">
-					<button type="submit" class="btn">送出</button>
+					<button id="submit" type="button" class="btn">送出</button>
 					<button type="reset" class="btn">清空</button>
 				</div>
 			</form>
