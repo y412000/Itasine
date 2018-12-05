@@ -20,5 +20,4 @@ for( let i = 0; i< shopLocation.length; i++){
 		"</div>\n\n";
 }
 
-console.log(locationTxt);
 document.getElementById("location").innerHTML = locationTxt;
