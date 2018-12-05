@@ -1,14 +1,3 @@
-/*@font-face {
-	font-family: 'Noto Sans TCKtc';
-	src:url("./font/NotoSansCJKtc-Regular.eot");
-	src:url("./font/NotoSansCJKtc-Regular.eot?#font-spider") format('embedded-opentype'),
-		url("./font/NotoSansCJKtc-Regular.woff") format('woff'), 
-		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'),
-		url("./font/NotoSansCJKtc-Regular.svg") format('svg');
-	font-style: normal;
-	font-weight: 400;
-}
-*/
 * {
 	box-sizing: border-box;
 	position: relative;
@@ -481,6 +470,7 @@ textarea {
 #message {
 	color: black;
 	text-shadow: none;
+	font-size: 14px !important;
 }
 
 #name:focus, 
