@@ -1,13 +1,14 @@
-@font-face {
+/*@font-face {
 	font-family: 'Noto Sans TCKtc';
+	src:url("./font/NotoSansCJKtc-Regular.eot");
+	src:url("./font/NotoSansCJKtc-Regular.eot?#font-spider") format('embedded-opentype'),
+		url("./font/NotoSansCJKtc-Regular.woff") format('woff'), 
+		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'),
+		url("./font/NotoSansCJKtc-Regular.svg") format('svg');
 	font-style: normal;
 	font-weight: 400;
-	src:url("./font/NotoSansCJKtc-Regular.woff2") format('woff2'),
-		url("./font/NotoSansCJKtc-Regular.woff") format('woff'),
-		url("./font/NotoSansCJKtc-Regular.ttf") format('truetype'), 
-		url("./font/NotoSansCJKtc-Regular.eot") format('embedded-opentype');
 }
-
+*/
 * {
 	box-sizing: border-box;
 	position: relative;
@@ -23,7 +24,7 @@ html {
 }
 
 body {
-	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
+	font-family: 'Roboto Condensed', 'Noto Sans TC', sans-serif;
 	overflow-y: scroll;
 	height: auto;
 	min-height: 100%;
@@ -60,7 +61,7 @@ h4 {
 	right: 5%;
 	padding: 10px 7px 10px 10px;
 	
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 	font-size: 120%;
 	font-weight: bold;
 	color: white;
@@ -90,7 +91,7 @@ nav {
 
 /*控制縮小版的導覽列*/
 .navbar-brand {
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 	color: white;
 	font-size: 190%;
 	text-shadow: none;
@@ -320,14 +321,14 @@ section {
 .carousel-control-next-icon:after
 {
 	content: '>';
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 	font-size: 85px;
 	color: rgba(255,255,255,1);
 }
 
 .carousel-control-prev-icon:after {
 	content: '<';
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 	font-size: 85px;
 	color: rgba(255,255,255,1);
 }
@@ -392,11 +393,11 @@ section {
 
 .menuInfo > h6 {
 	padding-bottom: 5px;
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 }
 
 .menuInfo > h5:last-child{
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 }
 
 .menuBlock {
@@ -420,7 +421,7 @@ section {
 }
 
 .setInfo {
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 }
 
 .setInfo > h6 {
@@ -428,7 +429,7 @@ section {
 }
 
 .setCtn {
-	font-family: 'Macondo Swash Caps','Noto Sans TCKtc', cursive;
+	font-family: 'Macondo Swash Caps','Noto Sans TC', cursive;
 	padding: 20px 30px;
 	background-color: rgba(0,0,0,0.25);
 	border-radius: 30px;
@@ -459,11 +460,6 @@ form {
 	transform: translateX(-50%);
 }
 
-.form-control {
-	color: black;
-	text-shadow: none;
-}
-
 label {
 	margin: 0;
 	font-size: 110%;
@@ -475,6 +471,16 @@ option {
 
 textarea {
 	resize: none;
+}
+
+#name, 
+#tel, 
+#email, 
+#select, 
+#select > option, 
+#message {
+	color: black;
+	text-shadow: none;
 }
 
 #name:focus, 
@@ -558,7 +564,7 @@ textarea {
 .mapInfo > h5, .mapInfo > p {
 	color: black;
 	text-shadow: none;
-	font-family: 'Roboto Condensed', 'Noto Sans TCKtc', sans-serif;
+	font-family: 'Roboto Condensed', 'Noto Sans TC', sans-serif;
 	line-height: 1.2;
 	font-weight: bold;
 }
