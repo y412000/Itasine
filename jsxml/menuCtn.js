@@ -31,7 +31,6 @@ for( let i = 0; i < menu.length; i++){
 	}
 }
 
-console.log(menutxt);
 document.getElementById("menuCtn").innerHTML = menutxt;
 
 let menuImgNum = 0;
